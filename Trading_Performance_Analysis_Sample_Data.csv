@@ -1,0 +1,41 @@
+Trade ID,Trade Date,Instrument,Session,Setup,Direction,Entry Price,Stop-Loss Price,Take-Profit Price,Planned Risk (% equity),Actual Risk (% equity),Gross P/L (USD),Transaction Costs (USD),Net P/L (USD),Net Result (R),Outcome,Planned Risk Exceeded,Rule Violated,Notes,Exit Price,Exit Type,Exposure (USD per 1.0 price unit),Equity Before Trade (USD),Planned Risk 1R (USD),Rule ID(s)
+T01,2026-03-02,USDJPY,Asian,Breakout,Long,147.563,147.109,148.471,1.0,1.0,200.0,2.2,197.8,1.978,Win,No,No,Plan followed,148.471,Target hit,220.26,10000.0,100.0,
+T02,2026-03-03,BTCUSD,London,Trend Pullback,Short,66051.4,67074.6,64005.0,0.5,0.5,-50.96,0.75,-51.71,-1.0141,Loss,No,No,Plan followed; stopped out,67074.6,Stop hit,0.0498,10197.8,50.99,
+T03,2026-03-03,XAUUSD,London/NY Overlap,Discretionary Other,Short,2658.16,2669.47,2635.54,1.0,1.0,-101.45,2.24,-103.69,-1.022,Loss,No,No,Plan followed; stopped out,2669.47,Stop hit,8.97,10146.09,101.46,
+T04,2026-03-04,EURUSD,London/NY Overlap,Trend Pullback,Long,1.07544,1.07315,1.0791,1.0,1.0,160.5,3.51,156.99,1.5633,Win,No,No,Plan followed,1.0791,Target hit,43851.52,10042.4,100.42,
+T05,2026-03-06,EURUSD,London/NY Overlap,Trend Pullback,Short,1.08123,1.08412,1.074,1.0,1.0,-101.99,2.82,-104.81,-1.0276,Loss,No,Yes,Entered before confirmation candle closed; stopped out,1.08412,Stop hit,35290.65,10199.39,101.99,R3
+T06,2026-03-09,EURUSD,London/NY Overlap,Trend Pullback,Short,1.085,1.08799,1.08051,1.0,1.0,151.59,2.7,148.89,1.4749,Win,No,No,Plan followed,1.08051,Target hit,33762.54,10094.58,100.95,
+T07,2026-03-10,USDJPY,London/NY Overlap,Breakout,Long,149.117,148.722,150.105,1.0,1.0,-102.43,2.59,-105.02,-1.0253,Loss,No,No,Plan followed; stopped out,148.722,Stop hit,259.31,10243.47,102.43,
+T08,2026-03-11,EURUSD,London/NY Overlap,Trend Pullback,Long,1.08637,1.08421,1.09069,1.0,1.0,81.2,3.75,77.45,0.764,Win,No,Yes,Closed manually well before target; no trail documented,1.0881,Manual early exit,46935.18,10138.45,101.38,R4
+T09,2026-03-12,XAUUSD,New York,Breakout,Long,2668.41,2661.41,2685.91,1.0,1.0,-102.13,3.65,-105.78,-1.0354,Loss,No,No,Plan followed; stopped out,2661.41,Stop hit,14.59,10215.9,102.16,
+T10,2026-03-13,EURUSD,London,Breakout,Short,1.08326,1.08611,1.07756,1.0,1.0,-101.1,2.84,-103.94,-1.0281,Loss,No,No,Plan followed; stopped out,1.08611,Stop hit,35473.68,10110.12,101.1,
+T11,2026-03-16,EURUSD,London/NY Overlap,Trend Pullback,Long,1.0809,1.07888,1.08534,1.0,1.0,219.93,3.96,215.97,2.1584,Win,No,No,Plan followed,1.08534,Target hit,49534.65,10006.18,100.06,
+T12,2026-03-18,USDJPY,London,Trend Pullback,Long,147.048,146.609,147.707,1.0,1.0,-102.22,2.33,-104.55,-1.0228,Loss,No,Unclear,Journal does not say whether stop was moved; record incomplete,146.609,Stop hit,232.84,10222.15,102.22,R4?
+T13,2026-03-19,USDJPY,New York,Range Reversal,Long,148.344,147.987,N/A,1.0,1.0,151.91,2.83,149.08,1.4734,Win,No,No,Plan followed,148.88,Trailing stop (documented),283.41,10117.6,101.18,
+T14,2026-03-19,BTCUSD,Asian,Range Reversal,Long,67560.6,66630.3,69421.2,0.5,0.499,-56.38,0.83,-57.21,-1.1146,Loss,No,Yes,Asian-session entry on non-JPY pair; gap through stop (slippage),66537.3,Stop hit (slippage),0.0551,10266.68,51.33,R2
+T15,2026-03-20,USDJPY,Asian,Discretionary Other,Long,147.816,147.225,148.703,1.0,1.0,-102.09,1.73,-103.82,-1.0169,Loss,No,No,Plan followed; stopped out,147.225,Stop hit,172.74,10209.47,102.09,
+T16,2026-03-23,BTCUSD,New York,Discretionary Other,Long,66426.3,65489.7,68299.5,0.5,0.5,100.97,0.81,100.16,1.9822,Win,No,No,Plan followed,68299.5,Target hit,0.0539,10105.65,50.53,
+T17,2026-03-24,BTCUSD,London/NY Overlap,Breakout,Long,70661.8,69833.9,72317.6,0.5,0.5,-51.0,0.92,-51.92,-1.0174,Loss,No,No,Plan followed; stopped out,69833.9,Stop hit,0.0616,10205.81,51.03,
+T18,2026-03-24,GBPUSD,London,Range Reversal,Short,1.29852,1.30179,1.29198,1.0,1.0,-101.54,3.73,-105.27,-1.0367,Loss,No,No,Plan followed; stopped out,1.30179,Stop hit,31051.98,10153.89,101.54,
+T19,2026-03-24,XAUUSD,London,Trend Pullback,Long,2624.32,2614.74,2643.48,1.0,1.5,-150.69,3.93,-154.62,-1.5387,Loss,Yes,Yes,Third trade of the day after two losses; position oversized,2614.74,Stop hit,15.73,10048.62,100.49,"R1, R5"
+T20,2026-03-26,BTCUSD,New York,Trend Pullback,Short,69808.0,70589.4,68323.3,0.5,0.5,93.98,0.95,93.03,1.8805,Win,No,No,Plan followed,68323.3,Target hit,0.0633,9894.0,49.47,
+T21,2026-03-27,USDJPY,New York,Breakout,Short,149.713,150.258,148.35,1.0,1.0,-99.87,1.83,-101.7,-1.0183,Loss,No,No,Plan followed; stopped out,150.258,Stop hit,183.24,9987.03,99.87,
+T22,2026-03-30,EURUSD,London/NY Overlap,Trend Pullback,Long,1.08906,1.08648,1.09319,1.0,1.0,158.24,3.07,155.17,1.5698,Win,No,No,Plan followed,1.09319,Target hit,38313.95,9885.33,98.85,
+T23,2026-03-31,USDJPY,London,Breakout,Long,147.339,146.885,148.247,1.0,1.0,40.25,2.21,38.04,0.3788,Win,No,Yes,Manual early exit at small gain; no trail documented,147.521,Manual early exit,221.16,10040.5,100.41,R4
+T24,2026-04-01,GBPUSD,London,Range Reversal,Short,1.28373,1.28788,1.27543,1.0,1.0,-100.79,2.91,-103.7,-1.0289,Loss,No,No,Plan followed; stopped out,1.28788,Stop hit,24286.74,10078.54,100.79,
+T25,2026-04-02,BTCUSD,New York,Trend Pullback,Long,70335.0,69048.7,72907.6,0.5,0.539,107.53,0.63,106.9,2.1436,Win,Yes,No,Size slightly above plan (within ±10% tolerance),72907.6,Target hit,0.0418,9974.84,49.87,
+T26,2026-04-03,EURUSD,Asian,Trend Pullback,Short,1.08629,1.08957,1.07809,1.0,1.0,-100.82,2.46,-103.28,-1.0244,Loss,No,Yes,Asian-session entry on non-JPY pair,1.08957,Stop hit,30737.8,10081.74,100.82,R2
+T27,2026-04-07,BTCUSD,London,Trend Pullback,Long,69354.5,68613.0,N/A,0.5,0.499,59.79,1.01,58.78,1.1782,Win,No,No,Plan followed,70244.3,Trailing stop (documented),0.0672,9978.46,49.89,
+T28,2026-04-08,USDJPY,Asian,Trend Pullback,Long,147.538,147.127,148.566,1.0,1.0,-100.37,2.44,-102.81,-1.0243,Loss,No,No,Plan followed; stopped out,147.127,Stop hit,244.2,10037.24,100.37,
+T29,2026-04-09,BTCUSD,London,Trend Pullback,Long,70126.7,68838.4,72059.1,0.5,0.499,-49.6,0.58,-50.18,-1.0103,Loss,No,No,Plan followed; stopped out,68838.4,Stop hit,0.0385,9934.43,49.67,
+T30,2026-04-09,BTCUSD,London/NY Overlap,Discretionary Other,Long,70304.3,69319.4,72077.1,0.5,0.499,88.82,0.75,88.07,1.7821,Win,No,Yes,Entry without confirmation; trade still reached +1.8R,72077.1,Target hit,0.0501,9884.25,49.42,R3
+T31,2026-04-10,GBPUSD,London/NY Overlap,Trend Pullback,Long,1.27765,1.27388,1.28707,1.0,1.0,-107.66,3.17,-110.83,-1.1114,Loss,No,No,Plan followed; stopped out,1.27358,Stop hit (slippage),26450.92,9972.32,99.72,
+T32,2026-04-14,USDJPY,London,Range Reversal,Short,147.421,147.743,146.906,1.0,1.0,157.71,3.06,154.65,1.5683,Win,No,No,Plan followed,146.906,Target hit,306.24,9861.49,98.61,
+T33,2026-04-15,USDJPY,London/NY Overlap,Range Reversal,Long,149.371,148.796,150.234,1.0,1.3,-130.2,2.26,-132.46,-1.3225,Loss,Yes,Yes,Position size above plan by ~30%,148.796,Stop hit,226.44,10016.14,100.16,R1
+T34,2026-04-16,GBPUSD,London,Range Reversal,Long,1.29957,1.29624,N/A,1.0,1.0,98.84,3.56,95.28,0.964,Win,No,No,Plan followed,1.3029,Trailing stop (documented),29681.68,9883.68,98.84,
+T35,2026-04-17,XAUUSD,New York,Breakout,Short,2643.6,2650.69,2625.88,1.0,1.0,-99.76,3.52,-103.28,-1.035,Loss,No,No,Plan followed; stopped out,2650.69,Stop hit,14.07,9978.96,99.79,
+T36,2026-04-21,XAUUSD,London,Trend Pullback,Long,2676.15,2662.99,2694.57,1.0,0.999,138.15,1.88,136.27,1.3798,Win,No,No,Plan followed,2694.57,Target hit,7.5,9875.68,98.76,
+T37,2026-04-22,GBPUSD,New York,Discretionary Other,Short,1.28847,1.29265,1.27802,1.0,1.0,-100.12,2.87,-102.99,-1.0287,Loss,No,Unclear,Exit screenshot missing; cannot confirm stop was untouched,1.29265,Stop hit,23952.15,10011.95,100.12,R4?
+T38,2026-04-23,XAUUSD,London/NY Overlap,Range Reversal,Long,2639.94,2632.33,2652.88,1.0,1.0,168.48,3.25,165.23,1.6675,Win,No,No,Plan followed,2652.88,Target hit,13.02,9908.96,99.09,
+T39,2026-04-27,XAUUSD,London,Discretionary Other,Long,2649.85,2638.55,2666.8,1.0,1.04,-104.75,2.32,-107.07,-1.0628,Loss,Yes,No,Size slightly above plan (within ±10% tolerance),2638.55,Stop hit,9.27,10074.19,100.74,
+T40,2026-04-28,USDJPY,London/NY Overlap,Discretionary Other,Short,147.909,148.412,147.004,1.0,1.0,179.33,1.98,177.35,1.7794,Win,No,No,Plan followed,147.004,Target hit,198.15,9967.12,99.67,
